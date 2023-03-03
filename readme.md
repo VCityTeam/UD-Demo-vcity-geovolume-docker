@@ -15,7 +15,7 @@ docker compose up
 
 By default (in the [.env](./.env)), the geoVolume Server will be hosted on [`localhost:3000`](localhost:3000)
 
-By default (in the [.env](./.env)), the geoVolume Demo will be hosted on []`localhost:8000`'](localhost:8000)
+By default (in the [.env](./.env)), the geoVolume Demo will be hosted on [`localhost:8000`](localhost:8000)
 
 
 
