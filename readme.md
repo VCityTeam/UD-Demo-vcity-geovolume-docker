@@ -10,7 +10,7 @@ Once Docker is installed, clone this repository and use the docker-compose file 
 ```
 git clone https://github.com/VCityTeam/UD-Demo-vcity-geovolume-docker.git
 cd UD-Demo-ccity-geovolume-docker
-docker compose up
+docker-compose up
 ```
 
 By default (in the [.env](./.env)), the geoVolume Server will be hosted on [`localhost:3000`](localhost:3000)
