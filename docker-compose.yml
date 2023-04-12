@@ -2,13 +2,13 @@ version: '3.4'
 services:
   geovolume_server:
     build:
-      context: ./geovolumeServer-context
+      context: ./demo-geovolume-server-context
     hostname: geovolumeServer
     ports:
       - "${GEOVOLUME_SERVER_PORT}:3000"
   ud_viz_demo:
     build:
-      context: ./demo-context
+      context: ./demo-geovolume-ud-viz-context
     hostname: geovolumeDemo
     ports:
       - "${UD_VIZ_DEMO_PORT}:8000"

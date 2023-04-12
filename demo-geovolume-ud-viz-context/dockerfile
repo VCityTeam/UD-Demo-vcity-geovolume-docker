@@ -23,6 +23,7 @@ RUN git --version
 
 WORKDIR /
 RUN git clone --recurse-submodules https://github.com/VCityTeam/UD-Demo-vcity-geovolume.git
+RUN git checkout e60f93ee5c9cde5fc2201caa6f0d5dc0dec76c01
 WORKDIR /UD-Demo-vcity-geovolume
 RUN npm install
 RUN npm run build
